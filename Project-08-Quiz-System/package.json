@@ -1,0 +1,17 @@
+{
+  "name": "m66sohaib-quiz-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sohaib Touseef",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^11.0.2"
+  }
+}
