@@ -1,10 +1,10 @@
 {
-  "name": "m66sohaib-adventure-game",
+  "name": "@m6sohaib/adventure_game",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {"adventure_game":"index.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

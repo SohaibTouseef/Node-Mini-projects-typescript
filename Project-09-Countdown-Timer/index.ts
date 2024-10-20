@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import {differenceInSeconds} from "date-fns";
 
@@ -8,11 +8,11 @@ const res = await inquirer.prompt(
         {
             name:"userInput",
             type:"number",
-            message:"please enter the amount of second",
-            validate: (input)=>{
-                if(isNaN(input)){
+            message:"please enter the count of second",
+            validate: (value)=>{
+                if(isNaN(value)){
                     return "please enter valid number"
-                }else if(input > 60){
+                }else if(value > 60){
                     return "second must be in  60"
 
                 }else{

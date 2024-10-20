@@ -1,8 +1,8 @@
 {
-  "name": "m6sohaibcountdown-timer-project-09",
+  "name": "@m6sohaib/countdown_timer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main":{"countdown_timer":"index.js"},
   "type": "module",
   "bin": "index.js",
   "scripts": {

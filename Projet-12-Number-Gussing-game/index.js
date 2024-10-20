@@ -1,4 +1,4 @@
-#! usr/bin/env node 
+#! /usr/bin/env node 
 import inquirer from "inquirer";
 import chalk from "chalk";
 // 1) computer will generate a random number done

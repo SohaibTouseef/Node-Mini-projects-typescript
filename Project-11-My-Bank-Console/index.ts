@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 
@@ -10,7 +11,6 @@ interface BankAccount {
     deposit(amount: number): void
     checkbalance(): void
 }
-
 // Banl Account class 
 class BankAccount implements BankAccount {
     accountNumber: number;

@@ -1,10 +1,10 @@
 {
-  "name": "m6sohaib-currency-converter",
+  "name": "@m6sohaib/currency_converter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {"currency_converter":"index.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

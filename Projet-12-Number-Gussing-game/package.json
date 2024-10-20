@@ -1,10 +1,10 @@
 {
-  "name": "@Sohaib-number-gussing-game",
+  "name": "@m6sohaib/number_gussing_game",
   "version": "1.0.0",
   "description": "A cli number gussing game typescript, and node.js and inquirer",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {"number_gussing_game":"index.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
